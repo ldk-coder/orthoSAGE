@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="520" viewBox="0 0 1440 520" role="img" aria-labelledby="title desc">
+  <title id="title">OrthoSAGE</title>
+  <desc id="desc">Model and inference core for three-dimensional orthodontic setup. Geometry, historical experience, and bounded refinement.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c172a"/><stop offset="1" stop-color="#123b43"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#93c5fd"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#adc8d6" opacity="0.13"/>
+    </pattern>
+  </defs>
+  <rect width="1440" height="520" rx="22" fill="url(#bg)"/>
+  <rect width="1440" height="520" rx="22" fill="url(#grid)"/>
+  <path d="M986 98 C910 220 988 355 1125 364 C1278 374 1360 213 1284 102" fill="none" stroke="#5eead4" stroke-width="1.5" opacity="0.18"/>
+  <path d="M1016 118 C953 224 1012 318 1128 327 C1249 334 1311 224 1255 121" fill="none" stroke="#93c5fd" stroke-width="1.5" opacity="0.22"/>
+  <g fill="#112f3d" stroke="#62c7c0" stroke-width="1.5" opacity="0.8">
+    <rect x="986" y="132" width="39" height="49" rx="13" transform="rotate(-24 1005 156)"/>
+    <rect x="974" y="191" width="41" height="47" rx="13" transform="rotate(-6 994 214)"/>
+    <rect x="993" y="247" width="40" height="46" rx="12" transform="rotate(25 1013 270)"/>
+    <rect x="1035" y="287" width="35" height="44" rx="11" transform="rotate(47 1052 309)"/>
+    <rect x="1087" y="308" width="31" height="42" rx="10" transform="rotate(75 1102 329)"/>
+    <rect x="1138" y="307" width="31" height="42" rx="10" transform="rotate(105 1153 328)"/>
+    <rect x="1188" y="285" width="35" height="44" rx="11" transform="rotate(-47 1205 307)"/>
+    <rect x="1228" y="245" width="40" height="46" rx="12" transform="rotate(-25 1248 268)"/>
+    <rect x="1245" y="189" width="41" height="47" rx="13" transform="rotate(6 1265 212)"/>
+    <rect x="1235" y="132" width="39" height="49" rx="13" transform="rotate(24 1254 156)"/>
+  </g>
+  <g fill="none" stroke="#5eead4" stroke-width="1" opacity="0.35">
+    <path d="M1005 156 L1129 222 L1254 156 M994 214 L1129 222 L1265 212 M1013 270 L1129 222 L1248 268 M1052 309 L1129 222 L1205 307 M1102 329 L1129 222 L1153 328"/>
+  </g>
+  <circle cx="1129" cy="222" r="26" fill="#133c48" stroke="#5eead4" stroke-width="1.5"/>
+  <circle cx="1129" cy="222" r="7" fill="#5eead4"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="66" y="52" width="248" height="29" rx="14.5" fill="#183c48" stroke="#32616b"/>
+    <text x="190" y="71" text-anchor="middle" font-size="12" font-weight="600" letter-spacing="2" fill="#a7e8e2">MODEL &amp; INFERENCE RELEASE</text>
+    <text x="62" y="178" font-size="84" font-weight="700" letter-spacing="-3" fill="#f1f7fa">Ortho<tspan fill="url(#accent)">SAGE</tspan></text>
+    <text x="67" y="222" font-size="23" fill="#c8dae3">Three-dimensional orthodontic setup</text>
+    <text x="67" y="266" font-size="17" fill="#8eacbd">Geometry informed by historical experience.</text>
+    <text x="67" y="293" font-size="17" fill="#8eacbd">A numerical core for evidence-aware research.</text>
+    <line x1="67" y1="342" x2="1373" y2="342" stroke="#80aaba" opacity="0.2"/>
+    <g>
+      <rect x="67" y="375" width="388" height="91" rx="12" fill="#142e40" stroke="#2a4857"/>
+      <text x="90" y="409" font-size="12" letter-spacing="2" fill="#5eead4">01 / GEOMETRY</text>
+      <text x="90" y="439" font-size="20" font-weight="600" fill="#e1edf3">Represent the dentition</text>
+      <rect x="480" y="375" width="452" height="91" rx="12" fill="#142e40" stroke="#2a4857"/>
+      <text x="503" y="409" font-size="12" letter-spacing="2" fill="#5eead4">02 / EXPERIENCE</text>
+      <text x="503" y="439" font-size="20" font-weight="600" fill="#e1edf3">Fuse historical tooth movements</text>
+      <rect x="957" y="375" width="416" height="91" rx="12" fill="#142e40" stroke="#2a4857"/>
+      <text x="980" y="409" font-size="12" letter-spacing="2" fill="#5eead4">03 / REFINEMENT</text>
+      <text x="980" y="439" font-size="20" font-weight="600" fill="#e1edf3">Apply bounded corrections</text>
+    </g>
+  </g>
+</svg>
