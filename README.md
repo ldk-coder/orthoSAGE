@@ -4,8 +4,6 @@
 
 ### Combining historical experience and clinical knowledge<br>for three-dimensional orthodontic setup
 
-**Dengke Liu · Yuntao Mao · Ziwei Chen · Dongliang Zhang · Jiaxiang Zhang**
-
 Beijing Jiaotong University · Capital Medical University
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -185,11 +183,11 @@ One additional manuscript-alignment issue remains: arch smoothness is computed a
 
 The manuscript uses three existing data sources. Access and reuse remain subject to the original providers' terms; patient data are not redistributed in this repository.
 
-| Source | Publication / repository | Access contact |
+| Source | Publication / repository | Access procedure |
 | :--- | :--- | :--- |
-| Shanghai · CLIK-Diffusion | [Medical Image Analysis article](https://doi.org/10.1016/j.media.2025.103746) | Yulong Dou and Zhiming Cui, through the providers' data access agreement |
-| Beijing | [Scientific Data article](https://doi.org/10.1038/s41597-024-04138-7) · [Zenodo](https://doi.org/10.5281/zenodo.11392406) | Yong-Jin Liu, subject to the providers' data use agreement |
-| Hangzhou · TeethAlign3D | [Zenodo](https://doi.org/10.5281/zenodo.15834700) | Jiazhou Chen, under the providers' terms |
+| Shanghai · CLIK-Diffusion | [Medical Image Analysis article](https://doi.org/10.1016/j.media.2025.103746) | Through the providers' data access agreement |
+| Beijing | [Scientific Data article](https://doi.org/10.1038/s41597-024-04138-7) · [Zenodo](https://doi.org/10.5281/zenodo.11392406) | Subject to the providers' data use agreement |
+| Hangzhou · TeethAlign3D | [Zenodo](https://doi.org/10.5281/zenodo.15834700) | Under the providers' terms |
 
 ## Repository layout
 
@@ -207,7 +205,7 @@ orthoSAGE/
 ## Manuscript
 
 **Combining historical experience and clinical knowledge for three-dimensional orthodontic setup**  
-Dengke Liu, Yuntao Mao, Ziwei Chen, Dongliang Zhang and Jiaxiang Zhang.
+Beijing Jiaotong University · Capital Medical University
 
 Publication metadata and a manuscript DOI are not included in this release. Please use verified bibliographic information when citing the work.
 
